@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1>Welcome to Writerey!</h1>
+  <div class="intro">
     <img class="pure-img splashscreen" src="../assets/img/writerey-splashscreen.png" />
+    <p>{{ $t("introduction.text") }}</p>
   </div>
 </template>
 
@@ -13,8 +13,13 @@ export default class Introduction extends Vue {}
 </script>
 
 <style scoped lang="scss">
-  .splashscreen {
-    width: 350px;
-  }
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
+.splashscreen {
+  width: 350px;
+}
 </style>

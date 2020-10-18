@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Medium.ttf") format("truetype");
+}
+
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+.pure-g h1,
+.pure-g h2,
+.pure-g h3,
+.pure-g h4 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+}
+
+html {
+  line-height: normal;
+}
+
+/* h1, h2, .pure-g h1, .pure-g h2 {
+  font-family: 'Playfair Display Bold', Georgia, 'Times New Roman', Times, serif;
+} */

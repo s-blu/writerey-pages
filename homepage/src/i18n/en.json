@@ -1,8 +1,45 @@
 {
   "title": "Writerey",
-  "link": {
-    "documentation": "Docs",
-    "download": "Get It",
+  "links": {
+    "documentation": "https://github.com/s-blu/writerey",
+    "download": "https://github.com/s-blu/writerey/releases/latest"
+  },
+  "navbar": {
+    "documentation": "Documentation",
+    "download": "Download",
     "imprint": "Imprint"
+  },
+  "introduction": {
+    "text": "Writerey is a tool that aims to help you to organize, compose and refine your stories. No matter if you write poems, novels, short stories or something else, writerey is your distraction free place to get work done."
+  },
+  "features": {
+    "title": "Features",
+    "points": [
+      "Organize your work in projects",
+      "Enjoy writing in a distraction free editor based on CKEditor 5",
+      "Automatic saving",
+      "Take snapshots from your work to never lose a revision again – without the need to copy and paste files around!",
+      "Annotate your documents and paragraphs with notes to add informations and todos"
+    ]
+  },
+  "beta": {
+    "title": "Still in Beta",
+    "intro": "Please be aware that writerey is a community-driven open source project that is still in beta. That especially means:",
+    "points": [
+      "Some features are missing or incomplete",
+      "There are bugs around",
+      "Changes could lead to backward incompatibility, even though we try our best to avoid that"
+    ],
+    "v1hint": "That said, writerey is in a useable state and can already add value to your daily work. We would appreciate your feedback highly. Developing a software is a long journey and we would be delighted if you tag along. If you prefer a comfortable and stable 1.0, we hope to see you again on a later date."
+  },
+  "docs": {
+    "title": "Documentation",
+    "text": "Do you want to find out more about writerey or search for a place to get started? Head over to our documentation!",
+    "link": "To the documentation"
+  },
+  "get": {
+    "title": "Open Source ",
+    "opensource": "Writerey is an open source tool and completely free to use. ",
+    "download-button": "Download Writerey"
   }
 }
