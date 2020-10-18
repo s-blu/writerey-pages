@@ -4,10 +4,15 @@ import "./../src/assets/styles/pure-min.css";
 import "./../src/assets/styles/grids-responsive-min.css";
 import "./../src/assets/styles/style.css";
 import i18n from "./i18n";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 Vue.config.productionTip = false;
+library.add(faGithub);
+Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 new Vue({
   i18n,
-  render: h => h(App)
+  render: h => h(App),
 }).$mount("#app");

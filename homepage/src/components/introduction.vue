@@ -21,5 +21,6 @@ export default class Introduction extends Vue {}
 
 .splashscreen {
   width: 350px;
+  margin-bottom: 1em;
 }
 </style>

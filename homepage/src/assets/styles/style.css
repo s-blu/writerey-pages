@@ -9,7 +9,6 @@
 }
 
 html,
-button,
 input,
 select,
 textarea,
@@ -32,7 +31,3 @@ h4,
 html {
   line-height: normal;
 }
-
-/* h1, h2, .pure-g h1, .pure-g h2 {
-  font-family: 'Playfair Display Bold', Georgia, 'Times New Roman', Times, serif;
-} */

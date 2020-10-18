@@ -50,5 +50,11 @@ export default class App extends Vue {}
   .content {
     padding: 1em;
   }
+
+  .pure-button {
+    font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+    background: #88abde;
+    color: white;
+  }
 }
 </style>

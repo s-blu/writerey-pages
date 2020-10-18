@@ -2,7 +2,9 @@
   <div>
     <h2>{{ $t("docs.title") }}</h2>
     <p>{{ $t("docs.text") }}</p>
-    <a class="pure-button">{{ $t("docs.link") }}</a>
+    <div class="button-wrap">
+      <a class="pure-button">{{ $t("docs.link") }}</a>
+    </div>
   </div>
 </template>
 
@@ -13,4 +15,9 @@ import { Component, Vue } from "vue-property-decorator";
 export default class Docs extends Vue {}
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.button-wrap {
+  display: flex;
+  justify-content: center;
+}
+</style>
