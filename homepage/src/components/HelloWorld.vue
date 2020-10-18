@@ -15,6 +15,8 @@
         </li>
       </ul>
     </div>
+
+    <div>translated: {{ $t("message") }}</div>
   </div>
 </template>
 
