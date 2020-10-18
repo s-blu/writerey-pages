@@ -1,3 +1,8 @@
 {
-  "message": "hello i18n !!"
+  "title": "Writerey",
+  "link": {
+    "documentation": "Docs",
+    "download": "Get It",
+    "imprint": "Imprint"
+  }
 }
