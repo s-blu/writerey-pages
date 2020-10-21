@@ -1,11 +1,13 @@
 <template>
   <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-      <a class="pure-menu-heading" href="">{{ $t("title") }}</a>
+      <a class="pure-menu-heading" href="">
+        {{ $t("title") }}
+      </a>
 
       <ul class="pure-menu-list">
         <li class="pure-menu-item">
-          <router-link to="/about">{{ $t("navbar.download") }}</router-link>
+          <router-link class="pure-menu-link" to="/download">{{ $t("navbar.download") }}</router-link>
         </li>
         <li class="pure-menu-item">
           <a :href="docLink" class="pure-menu-link">{{ $t("navbar.documentation") }}</a>
@@ -25,19 +27,20 @@ import { Component, Vue } from "vue-property-decorator";
 
 @Component
 export default class Navbar extends Vue {
-  downloadLink = this.$i18n.t("links.download");
   docLink = this.$i18n.t("links.documentation");
   repoLink = "https://github.com/s-blu/writerey";
 }
 </script>
 
 <style scoped lang="scss">
+@import "../assets/styles/variables";
+
 .github-icon {
   font-size: 24px;
 }
 
 .pure-menu-heading {
-  font-family: "Playfair Display", sans-serif;
+  font-family: $font_serif;
   text-transform: none;
   color: white;
 }
@@ -48,15 +51,20 @@ export default class Navbar extends Vue {
 
 .pure-menu-list a {
   color: white;
+  text-decoration: none;
   &:hover {
     background-color: inherit;
     outline: 1px solid white;
   }
 }
 
+.pure-menu-list:last-of-type {
+  margin-right: 1em;
+}
+
 .home-menu {
   height: 60px;
-  background-color: #3963a1;
+  background-color: $c_primary_dark;
 
   display: flex;
   align-items: center;

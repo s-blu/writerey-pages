@@ -1,18 +1,10 @@
 <template>
-  <div id="app">
-    <div>
-      <navbar />
-    </div>
-    <div class="content pure-g">
-      <div class="pure-u-lg-1-5 pure-u-xl-7-24"></div>
-      <div class="pure-u-1 pure-u-lg-3-5 pure-u-xl-10-24">
-        <introduction />
-        <features />
-        <betaHint />
-        <getWriterey />
-        <docs />
-      </div>
-    </div>
+  <div class="home">
+    <introduction />
+    <features />
+    <betaHint />
+    <getWriterey />
+    <docs />
   </div>
 </template>
 
@@ -38,19 +30,4 @@ import BetaHint from "./betaHint.vue";
 export default class App extends Vue {}
 </script>
 
-<style lang="scss">
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #f9f8fc;
-  height: 100%;
-  .content {
-    padding: 1em;
-  }
-  .pure-button {
-    font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
-    background: #88abde;
-    color: white;
-  }
-}
-</style>
+<style lang="scss"></style>

@@ -1,5 +1,7 @@
 <template>
-  <div class="footer"></div>
+  <div class="footer">
+    FOOTERFOOTERFOOTERFOOTERFOOTERFOOTERFOOTERFOOTERFOOTERFOOTERFOOTERFOOTERFOOTERFOOTERFOOTER
+  </div>
 </template>
 
 <script lang="ts">
@@ -10,16 +12,10 @@ export default class Footer extends Vue {}
 </script>
 
 <style scoped lang="scss">
-.button-wrap {
-  display: flex;
-  justify-content: center;
-}
+@import "../assets/styles/variables";
+
 .footer {
   height: 60px;
-  background-color: #3963a1;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  background-color: $c_primary_dark;
 }
 </style>
