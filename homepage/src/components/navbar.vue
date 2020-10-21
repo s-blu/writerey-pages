@@ -10,10 +10,10 @@
           <router-link class="pure-menu-link" to="/download">{{ $t("navbar.download") }}</router-link>
         </li>
         <li class="pure-menu-item">
-          <a :href="docLink" class="pure-menu-link">{{ $t("navbar.documentation") }}</a>
+          <a :href="docLink" target="_blank" class="pure-menu-link">{{ $t("navbar.documentation") }}</a>
         </li>
         <li class="pure-menu-item">
-          <a :href="repoLink" class="pure-menu-link">
+          <a :href="repoLink" target="_blank" class="pure-menu-link">
             <font-awesome-icon class="github-icon" :icon="['fab', 'github']" />
           </a>
         </li>
@@ -49,12 +49,17 @@ export default class Navbar extends Vue {
   margin-bottom: 60px;
 }
 
-.pure-menu-list a {
+.pure-menu-list .pure-menu-link {
   color: white;
   text-decoration: none;
-  &:hover {
-    background-color: inherit;
-    outline: 1px solid white;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    background-color: unset;
+
+    .github-icon {
+      color: $c_primary;
+    }
   }
 }
 

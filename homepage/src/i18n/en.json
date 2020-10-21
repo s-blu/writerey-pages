@@ -47,7 +47,7 @@
     "link": "To the documentation"
   },
   "get": {
-    "title": "Open Source & free to use!",
+    "title": "Open Source & free to use",
     "opensource": "Writerey is an open source project and completely free to use. All you need to do is to follow our installation guide and you are ready to go!",
     "download-button": "Download Writerey",
     "contribute": "If you are a developer yourself and interested in contributing to the project, we'd be delighted! Head over to {repo} to see where you can help!",

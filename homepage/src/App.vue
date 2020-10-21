@@ -55,6 +55,15 @@ export default class App extends Vue {}
   }
 }
 
+a {
+  text-decoration: none;
+  color: $c_primary;
+  &:hover {
+    color: $c_primary_dark;
+    text-decoration: underline;
+  }
+}
+
 html,
 input,
 select,
@@ -62,6 +71,7 @@ textarea,
 #app .pure-g [class*="pure-u"] {
   font-family: $font_sans_serif;
   font-size: 18px;
+  color: $c_font;
 }
 
 h1,
