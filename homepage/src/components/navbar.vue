@@ -2,10 +2,13 @@
   <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
       <a class="pure-menu-heading" href="">
-        {{ $t("title") }}
+        <router-link class="pure-menu-link header-title" to="/">{{ $t("title") }}</router-link>
       </a>
 
       <ul class="pure-menu-list">
+        <li class="pure-menu-item">
+          <router-link class="pure-menu-link" to="/">{{ $t("navbar.home") }}</router-link>
+        </li>
         <li class="pure-menu-item">
           <router-link class="pure-menu-link" to="/download">{{ $t("navbar.download") }}</router-link>
         </li>
@@ -39,27 +42,28 @@ export default class Navbar extends Vue {
   font-size: 24px;
 }
 
-.pure-menu-heading {
-  font-family: $font_serif;
-  text-transform: none;
-  color: white;
-}
-
 .header {
   margin-bottom: 60px;
-}
 
-.pure-menu-list .pure-menu-link {
-  color: white;
-  text-decoration: none;
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-    background-color: unset;
+  .pure-menu-link {
+    font-family: $font_sans_serif;
+    color: white;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      background-color: unset;
 
-    .github-icon {
-      color: $c_primary;
+      .github-icon {
+        color: $c_primary;
+      }
     }
+  }
+
+  .pure-menu-link.header-title {
+    font-family: $font_serif;
+    text-transform: none;
+    color: white;
   }
 }
 

@@ -37,10 +37,13 @@ export default class App extends Vue {}
   src: url("./assets/fonts/PlayfairDisplay-Medium.ttf") format("truetype");
 }
 
+body {
+  background-color: $c_bg;
+}
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $c_bg;
   height: 100%;
   color: $c_font;
 
