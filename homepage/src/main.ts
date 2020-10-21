@@ -7,6 +7,7 @@ import i18n from "./i18n";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import router from "./router";
 
 Vue.config.productionTip = false;
 library.add(faGithub);
@@ -14,5 +15,6 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 new Vue({
   i18n,
-  render: h => h(App),
+  router,
+  render: h => h(App)
 }).$mount("#app");

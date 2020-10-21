@@ -5,7 +5,7 @@
 
       <ul class="pure-menu-list">
         <li class="pure-menu-item">
-          <a :href="downloadLink" class="pure-menu-link">{{ $t("navbar.download") }}</a>
+          <router-link to="/about">{{ $t("navbar.download") }}</router-link>
         </li>
         <li class="pure-menu-item">
           <a :href="docLink" class="pure-menu-link">{{ $t("navbar.documentation") }}</a>

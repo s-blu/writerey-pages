@@ -1,6 +1,9 @@
 <template>
   <div class="intro">
-    <img class="pure-img splashscreen" src="../assets/img/writerey-splashscreen.png" />
+    <img
+      class="pure-img splashscreen"
+      src="../assets/img/writerey-splashscreen.png"
+    />
     <p>{{ $t("introduction.text") }}</p>
   </div>
 </template>

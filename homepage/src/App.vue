@@ -1,43 +1,12 @@
 <template>
   <div id="app">
-    <div>
-      <navbar />
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
     </div>
-    <div class="content pure-g">
-      <div class="pure-u-lg-1-5 pure-u-xl-7-24"></div>
-      <div class="pure-u-1 pure-u-lg-3-5 pure-u-xl-10-24">
-        <introduction />
-        <features />
-        <betaHint />
-        <getWriterey />
-        <docs />
-      </div>
-    </div>
+    <router-view />
   </div>
 </template>
-
-<script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
-import HelloWorld from "./components/HelloWorld.vue";
-import Navbar from "./components/navbar.vue";
-import Introduction from "./components/introduction.vue";
-import Features from "./components/features.vue";
-import GetWriterey from "./components/getWriterey.vue";
-import Docs from "./components/docs.vue";
-import BetaHint from "./components/betaHint.vue";
-
-@Component({
-  components: {
-    Navbar,
-    Introduction,
-    Features,
-    GetWriterey,
-    Docs,
-    BetaHint,
-  },
-})
-export default class App extends Vue {}
-</script>
 
 <style lang="scss">
 #app {
@@ -45,6 +14,7 @@ export default class App extends Vue {}
   -moz-osx-font-smoothing: grayscale;
   background-color: #f9f8fc;
   height: 100%;
+  color: #19273b;
 
   .content {
     padding: 1em;
