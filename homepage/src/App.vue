@@ -4,15 +4,14 @@
       <navbar />
     </div>
     <div class="content pure-g">
-      <div class="pure-u-lg-1-3"></div>
-      <div class="pure-u-1 pure-u-lg-1-3">
+      <div class="pure-u-lg-1-5 pure-u-xl-7-24"></div>
+      <div class="pure-u-1 pure-u-lg-3-5 pure-u-xl-10-24">
         <introduction />
         <features />
         <betaHint />
         <getWriterey />
         <docs />
       </div>
-      <!-- <div class="pure-u-1-5"></div> -->
     </div>
   </div>
 </template>
