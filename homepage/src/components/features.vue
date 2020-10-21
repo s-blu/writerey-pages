@@ -1,9 +1,14 @@
 <template>
   <div>
     <h2>{{ $t("features.title") }}</h2>
-    <ul>
-      <li v-for="point in featureList" :key="point">{{ point }}</li>
-    </ul>
+    <h3>{{ $t("features.autosave.title") }}</h3>
+    <p>{{ $t("features.autosave.text") }}</p>
+    <h3>{{ $t("features.projects.title") }}</h3>
+    <p>{{ $t("features.projects.text") }}</p>
+    <h3>{{ $t("features.distractionfree.title") }}</h3>
+    <p>{{ $t("features.distractionfree.text") }}</p>
+    <h3>{{ $t("features.review.title") }}</h3>
+    <p>{{ $t("features.review.text") }}</p>
   </div>
 </template>
 
@@ -12,7 +17,6 @@ import { Component, Vue } from "vue-property-decorator";
 
 @Component
 export default class Features extends Vue {
-  featureList = this.$i18n.t("features.points");
 }
 </script>
 

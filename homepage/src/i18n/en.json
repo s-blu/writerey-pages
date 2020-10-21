@@ -14,13 +14,22 @@
   },
   "features": {
     "title": "Features",
-    "points": [
-      "Organize your work in projects",
-      "Enjoy writing in a distraction free editor based on CKEditor 5",
-      "Automatic saving",
-      "Take snapshots from your work to never lose a revision again – without the need to copy and paste files around!",
-      "Annotate your documents and paragraphs with notes to add informations and todos"
-    ]
+    "autosave": {
+      "title": "Automatic saving and persistent snapshots",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    "projects": {
+      "title": "Organize your work in projects",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    "distractionfree": {
+      "title": "Distraction free writing",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    },
+    "review": {
+      "title": "Review and enhance your work with todos and labels",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+    }
   },
   "beta": {
     "title": "Still in Beta",

@@ -11,10 +11,6 @@
           <a :href="docLink" class="pure-menu-link">{{ $t("navbar.documentation") }}</a>
         </li>
         <li class="pure-menu-item">
-          <a href="#" class="pure-menu-link">{{ $t("navbar.imprint") }}</a>
-          <!-- fixme -->
-        </li>
-        <li class="pure-menu-item">
           <a :href="repoLink" class="pure-menu-link">
             <font-awesome-icon class="github-icon" :icon="['fab', 'github']" />
           </a>
