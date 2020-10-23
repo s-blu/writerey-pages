@@ -17,19 +17,19 @@
     "title": "Features",
     "autosave": {
       "title": "Automatic saving and persistent snapshots",
-      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      "text": "Writerey keeps your work safe in two ways. First, it saves automatically every document you're working on, every time you do a tiny writing pause. Secondly, the app snapshots your work. That means it remembers how your document looked like in a certain place of time and saves this, forever, so you will never lose a revision again."
     },
     "projects": {
       "title": "Organize your work in projects",
-      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      "text": "A project is the top most structure in writerey. It creates an independent place for every idea you have and every undertaking you want to tackle. This way you always have all your project at one place and can in the same time concentrate on what's important for this one idea."
     },
     "distractionfree": {
       "title": "Distraction free writing",
-      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      "text": "A paper and your focus. That's what you get. You can tweak what you want to see with the distraction free toggle as well as the document modes to find your perfect balance between information and concentration."
     },
     "review": {
       "title": "Review and enhance your work with todos and labels",
-      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      "text": "This app is not only about writing. It is about enhancing your work. Labels, Notes and Document Links help you to maintain background information, to dos and enhancement notes right there where you need it: On your document. Say goodbye to the five word document you have open and to the dozens of sticky notes flying around."
     }
   },
   "beta": {
