@@ -1,10 +1,13 @@
 <template>
   <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed" ref="header">
-      <a class="pure-menu-heading" href="">
+      <span class="pure-menu-heading">
         <router-link class="pure-menu-link header-title" to="/">{{ $t("title") }}</router-link>
+      </span>
+      <a class="mobile-toggle" @click="toggleMobileNav()">
+        <font-awesome-icon class="toggle-icon" :icon="['fas', 'bars']" />
       </a>
-      <div class="nav-menu" ref="navMenu">
+      <div class="nav-menu" ref="navMenu" @click="closeMobileNav()">
         <ul class="pure-menu-list">
           <li class="pure-menu-item">
             <router-link class="pure-menu-link" to="/">{{ $t("navbar.home") }}</router-link>
@@ -17,9 +20,6 @@
           </li>
         </ul>
       </div>
-      <button class="mobile-toggle" @click="toggleMobileNav()">
-        <font-awesome-icon class="toggle-icon" :icon="['fas', 'bars']" />
-      </button>
     </div>
   </div>
 </template>
@@ -44,9 +44,13 @@ export default class Navbar extends Vue {
     }
   }
 
+  closeMobileNav() {
+    const menu = this.$refs.navMenu as HTMLElement;
+    menu.classList.remove("show-menu");
+  }
+
   toggleMobileNav() {
     const menu = this.$refs.navMenu as HTMLElement;
-    console.log("menu", menu);
 
     if (menu?.classList.contains("show-menu")) {
       menu.classList.remove("show-menu");
@@ -88,7 +92,6 @@ $height_navbar: 50px;
   background-color: $c_primary_dark;
 
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -112,28 +115,30 @@ $height_navbar: 50px;
   .home-menu {
     height: $height_navbar;
   }
+
+  .home-menu {
+    align-items: center;
+  }
 }
 
 @media (max-width: 62em) {
-  .header,
   .home-menu {
-    //height: inherit;
+    transform: height 200ms;
+    display: block;
   }
 
   .mobile-toggle {
-    display: inline;
+    display: block;
+    padding: 1em;
+    margin-right: 1em;
+    color: white;
+    float: right;
+    cursor: pointer;
   }
 
   .nav-menu {
     display: none;
-    //position: absolute;
-
-    //height: calc(100vh);
-    //right: 0;
-    //top: $height_navbar;
-    //background-color: $c_primary_dark;
-    //box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
-
+    flex: none;
     &.show-menu {
       display: inline-block;
       display: flex;
