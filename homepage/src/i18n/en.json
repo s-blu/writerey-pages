@@ -7,7 +7,6 @@
   "navbar": {
     "documentation": "Documentation",
     "download": "Download",
-    "imprint": "Imprint",
     "home": "Home"
   },
   "introduction": {
@@ -53,5 +52,9 @@
     "download-button": "Download Writerey",
     "contribute": "If you are a developer yourself and interested in contributing to the project, we'd be delighted! Head over to {repo} to see where you can help!",
     "repo-link": "the Github repository"
+  },
+  "footer": {
+    "imprint": "Imprint",
+    "email": "hello@writerey.com"
   }
 }

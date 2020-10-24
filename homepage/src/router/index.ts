@@ -15,6 +15,11 @@ const routes: Array<RouteConfig> = [
     name: "download",
     component: () => import("../components/download.vue"),
   },
+  {
+    path: "/imprint",
+    name: "imprint",
+    component: () => import("../components/imprint.vue"),
+  },
 ];
 
 const router = new VueRouter({

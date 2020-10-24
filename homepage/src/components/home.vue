@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <introduction />
+    <showroom />
     <features />
     <betaHint />
     <getWriterey />
@@ -17,6 +18,8 @@ import Features from "./features.vue";
 import GetWriterey from "./getWriterey.vue";
 import Docs from "./docs.vue";
 import BetaHint from "./betaHint.vue";
+import Showroom from "./showroom.vue";
+
 @Component({
   components: {
     Navbar,
@@ -25,9 +28,14 @@ import BetaHint from "./betaHint.vue";
     GetWriterey,
     Docs,
     BetaHint,
+    Showroom,
   },
 })
 export default class App extends Vue {}
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.home {
+  margin-bottom: 2em;
+}
+</style>

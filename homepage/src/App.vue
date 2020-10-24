@@ -7,18 +7,18 @@
         <router-view />
       </div>
     </div>
-    <footer />
+    <homepage-footer />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Footer from "./components/footer.vue";
+import HomepageFooter from "./components/footer.vue";
 import Navbar from "./components/navbar.vue";
 @Component({
   components: {
     Navbar,
-    Footer,
+    HomepageFooter,
   },
 })
 export default class App extends Vue {}
@@ -37,8 +37,15 @@ export default class App extends Vue {}
   src: url("./assets/fonts/PlayfairDisplay-Medium.ttf") format("truetype");
 }
 
+html,
+body,
+#app {
+  min-height: 100vh; // fixme doesnt work out?
+}
+
 body {
   background-color: $c_bg;
+  height: 100%;
 }
 
 #app {
@@ -46,14 +53,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   color: $c_font;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 
   .content {
     padding: 1em;
+    flex-grow: 2;
   }
 
   .pure-button {
     font-family: $font_serif;
-    background: $c_primary;
+    background: $c_primary_dark;
     color: white;
   }
 }
@@ -62,7 +75,7 @@ a {
   text-decoration: none;
   color: $c_primary;
   &:hover {
-    color: $c_primary_dark;
+    color: $c_font;
     text-decoration: underline;
   }
 }
