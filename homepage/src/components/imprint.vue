@@ -1,14 +1,31 @@
 <template>
   <div>
-    <h2>{{ $t("imprint.title") }}</h2>
+    <component :is="componentName"></component>
+    <!-- <imprintDe></imprintDe> -->
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import ImprintDe from "./imprint/imprintDe.vue";
+import ImprintEn from "./imprint/imprintEn.vue";
 
-@Component
-export default class Docs extends Vue {}
+@Component({
+  components: {
+    ImprintDe,
+    ImprintEn,
+  },
+})
+export default class Docs extends Vue {
+  locale = this.$i18n.locale;
+
+  componentName = `Imprint${this.capitalize(this.locale)}`;
+
+  capitalize(string) {
+    if (!string) return "";
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  }
+}
 </script>
 
 <style scoped lang="scss"></style>
