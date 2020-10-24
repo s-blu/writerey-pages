@@ -17,6 +17,7 @@ import { Component, Vue } from "vue-property-decorator";
 @Component
 export default class HomepageFooter extends Vue {
   public email = this.$i18n.t("footer.email");
+  repoLink = "https://github.com/s-blu/writerey";
 }
 </script>
 

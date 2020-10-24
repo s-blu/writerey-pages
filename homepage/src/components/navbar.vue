@@ -26,24 +26,17 @@ import { Component, Vue } from "vue-property-decorator";
 @Component
 export default class Navbar extends Vue {
   docLink = this.$i18n.t("links.documentation");
-  repoLink = "https://github.com/s-blu/writerey";
-
-  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 
   mounted() {
     window.onscroll = this.scrollFunction;
   }
 
   scrollFunction() {
-    console.log("sidgiasd");
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-      const header = this.$refs.header;
-      console.log(header, header.classList);
-      this.$refs.header.classList.add("shadowed");
+    const header: HTMLElement = this.$refs.header as HTMLElement;
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      header.classList.add("shadowed");
     } else {
-      this.$refs.header.classList.remove("shadowed");
-      console.log("möp");
-      //this.$refs.header.class = 'header';
+      header.classList.remove("shadowed");
     }
   }
 }

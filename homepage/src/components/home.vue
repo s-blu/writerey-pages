@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <introduction />
-    <showroom />
     <features />
+    <showroom />
     <betaHint />
     <getWriterey />
     <docs />
