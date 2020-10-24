@@ -1,8 +1,8 @@
 <template>
   <div class="footer">
     <div class="contact">
-      <router-link to="/imprint">{{ $t("footer.imprint") }}</router-link>
       <a class="email-link" :href="'mailto:' + email">{{ email }}</a>
+      <router-link to="/imprint">{{ $t("footer.imprint") }}</router-link>
     </div>
 
     <a :href="repoLink" target="_blank">
@@ -51,6 +51,6 @@ export default class HomepageFooter extends Vue {
 }
 .email-link {
   display: block;
-  margin-top: 1em;
+  margin-bottom: 1em;
 }
 </style>

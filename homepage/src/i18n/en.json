@@ -1,8 +1,7 @@
 {
   "title": "Writerey",
   "links": {
-    "documentation": "https://docs.writerey.com",
-    "download": "https://github.com/s-blu/writerey/releases/latest"
+    "documentation": "https://docs.writerey.com/"
   },
   "navbar": {
     "documentation": "Documentation",
@@ -56,5 +55,19 @@
   "footer": {
     "imprint": "Imprint",
     "email": "hello@writerey.com"
+  },
+  "get-writerey": {
+    "title": "How to install Writerey",
+    "requirements": "To be able to use writerey, it is necessary to fulfill some requirements on your machine. We are working on improving this process and making it less troublesome for you, so please bear with us. You'll find a detailed explanation what you need to install in the installation section of our documentation.",
+    "welcome": "We hope writerey will help you on your writing journey. Welcome on board!",
+    "doc": {
+      "link": "https://docs.writerey.com/en/installation/",
+      "label": "Installation instructions"
+    },
+    "download": {
+      "text": "If you system is ready to run Writerey, head over to Github, download it and you're ready to go! Please refer again to our documentation if you need more information.",
+      "link": "https://github.com/s-blu/writerey/releases/latest",
+      "label": "Download Writerey"
+    }
   }
 }
