@@ -16,8 +16,15 @@ function loadLocaleMessages(): LocaleMessages {
   return messages;
 }
 
+let uiLocale = navigator.language.split("-")[0];
+const supportedLocales = ["en"];
+if (!supportedLocales.includes(uiLocale)) {
+  console.warn(`translations in user locale "${uiLocale}" are not available, falling back to en`);
+  uiLocale = "en";
+}
+
 export default new VueI18n({
-  locale: process.env.VUE_APP_I18N_LOCALE || "en",
+  locale: uiLocale,
   fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || "en",
-  messages: loadLocaleMessages()
+  messages: loadLocaleMessages(),
 });

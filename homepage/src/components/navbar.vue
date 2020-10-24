@@ -4,18 +4,22 @@
       <a class="pure-menu-heading" href="">
         <router-link class="pure-menu-link header-title" to="/">{{ $t("title") }}</router-link>
       </a>
-
-      <ul class="pure-menu-list">
-        <li class="pure-menu-item">
-          <router-link class="pure-menu-link" to="/">{{ $t("navbar.home") }}</router-link>
-        </li>
-        <li class="pure-menu-item">
-          <router-link class="pure-menu-link" to="/download">{{ $t("navbar.download") }}</router-link>
-        </li>
-        <li class="pure-menu-item">
-          <a :href="docLink" target="_blank" class="pure-menu-link">{{ $t("navbar.documentation") }}</a>
-        </li>
-      </ul>
+      <div class="nav-menu" ref="navMenu">
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item">
+            <router-link class="pure-menu-link" to="/">{{ $t("navbar.home") }}</router-link>
+          </li>
+          <li class="pure-menu-item">
+            <router-link class="pure-menu-link" to="/download">{{ $t("navbar.download") }}</router-link>
+          </li>
+          <li class="pure-menu-item">
+            <a :href="docLink" target="_blank" class="pure-menu-link">{{ $t("navbar.documentation") }}</a>
+          </li>
+        </ul>
+      </div>
+      <button class="mobile-toggle" @click="toggleMobileNav()">
+        <font-awesome-icon class="toggle-icon" :icon="['fas', 'bars']" />
+      </button>
     </div>
   </div>
 </template>
@@ -39,16 +43,23 @@ export default class Navbar extends Vue {
       header.classList.remove("shadowed");
     }
   }
+
+  toggleMobileNav() {
+    const menu = this.$refs.navMenu as HTMLElement;
+    console.log("menu", menu);
+
+    if (menu?.classList.contains("show-menu")) {
+      menu.classList.remove("show-menu");
+    } else {
+      menu?.classList.add("show-menu");
+    }
+  }
 }
 </script>
 
 <style scoped lang="scss">
 @import "../assets/styles/variables";
-
-.header,
-.home-menu {
-  height: 50px;
-}
+$height_navbar: 50px;
 
 .header {
   .pure-menu-link {
@@ -88,6 +99,51 @@ export default class Navbar extends Vue {
 
   &.shadowed {
     box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  }
+}
+
+// mobile/desktop nav switch
+.mobile-toggle {
+  display: none;
+}
+
+@media (min-width: 62em) {
+  .header,
+  .home-menu {
+    height: $height_navbar;
+  }
+}
+
+@media (max-width: 62em) {
+  .header,
+  .home-menu {
+    //height: inherit;
+  }
+
+  .mobile-toggle {
+    display: inline;
+  }
+
+  .nav-menu {
+    display: none;
+    //position: absolute;
+
+    //height: calc(100vh);
+    //right: 0;
+    //top: $height_navbar;
+    //background-color: $c_primary_dark;
+    //box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+
+    &.show-menu {
+      display: inline-block;
+      display: flex;
+      flex-direction: column;
+
+      .pure-menu-item {
+        display: block;
+        text-align: right;
+      }
+    }
   }
 }
 </style>
