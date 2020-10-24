@@ -122,6 +122,10 @@ $height_navbar: 50px;
 }
 
 @media (max-width: 62em) {
+  .header {
+    margin-bottom: $height_navbar;
+  }
+  
   .home-menu {
     transform: height 200ms;
     display: block;
