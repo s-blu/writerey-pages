@@ -6,6 +6,12 @@
       <li v-for="point in betaPoints" :key="point">{{ point }}</li>
     </ul>
     <p>{{ $t("beta.v1hint") }}</p>
+    <h3>{{ $t("beta.roadmap.title") }}</h3>
+    <i18n path="beta.roadmap.text" tag="p">
+      <template v-slot:link>
+        <a :href="$t('beta.roadmap.link')" target="_blank">{{ $t("beta.roadmap.link-label") }}</a>
+      </template>
+    </i18n>
   </div>
 </template>
 

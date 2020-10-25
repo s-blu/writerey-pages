@@ -23,10 +23,10 @@
     },
     "distractionfree": {
       "title": "Distraction free writing",
-      "text": "A paper and your focus. That's what you get. You can tweak what you want to see with the distraction free toggle as well as the document modes to find your perfect balance between information and concentration."
+      "text": "A sheet of paper and your focus. That's what you get. You can tweak what you want to see with the distraction free toggle as well as the document modes to find your perfect balance between information and concentration."
     },
     "review": {
-      "title": "Review and enhance your work with todos and labels",
+      "title": "Review and enhance your work with notes and labels",
       "text": "This app is not only about writing. It is about enhancing your work. Labels, Notes and Document Links help you to maintain background information, to dos and enhancement notes right there where you need it: On your document. Say goodbye to the five word documents you have open and to the dozens of sticky notes flying around."
     }
   },
@@ -38,7 +38,13 @@
       "There are bugs around",
       "Changes could lead to backward incompatibility, even though we try our best to avoid that"
     ],
-    "v1hint": "That said, writerey is in a useable state and can already add value to your daily work. We would highly appreciate your feedback. Developing a software is a long journey and we would be delighted if you tag along. If you prefer a comfortable and stable 1.0, we hope to see you again on a later date."
+    "v1hint": "That said, writerey is in a useable state and can already add value to your daily work. We would highly appreciate your feedback. Developing a software is a long journey and we would be delighted if you tag along. If you prefer a comfortable and stable 1.0, we hope to see you again on a later date.",
+    "roadmap": {
+      "title": "Roadmap",
+      "text": "You ask yourself what you can expect from future versions? Head over to our Roadmap on our {link} to get an Overview about the things we'll work on soon.",
+      "link-label": "Documentation",
+      "link": "https://docs.writerey.com/en/roadmap/"
+    }
   },
   "docs": {
     "title": "Documentation",
@@ -53,7 +59,7 @@
     "repo-link": "the Github repository"
   },
   "footer": {
-    "imprint": "Imprint",
+    "imprint": "Imprint & Privacy",
     "email": "hello@writerey.com"
   },
   "get-writerey": {

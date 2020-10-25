@@ -17,7 +17,7 @@ function loadLocaleMessages(): LocaleMessages {
 }
 
 let uiLocale = navigator.language.split("-")[0];
-const supportedLocales = ["en"];
+const supportedLocales = ["en", "de"];
 if (!supportedLocales.includes(uiLocale)) {
   console.warn(`translations in user locale "${uiLocale}" are not available, falling back to en`);
   uiLocale = "en";

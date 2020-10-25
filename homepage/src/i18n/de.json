@@ -1,0 +1,73 @@
+{
+  "title": "Writerey",
+  "links": {
+    "documentation": "https://docs.writerey.com/"
+  },
+  "navbar": {
+    "documentation": "Dokumentation",
+    "download": "Download",
+    "home": "Home"
+  },
+  "introduction": {
+    "text": "Writerey ist eine Software, die dir helfen will, deine Geschichten zu verfassen, zu organisieren und zu verfeinern. Egal ob du Gedichte schreibst, Kurzgeschichten, ganze Bücher oder etwas Anderes, Writerey ist dein Ort zum fokussierten Arbeiten."
+  },
+  "features": {
+    "title": "Funktionen",
+    "autosave": {
+      "title": "Automatisches Speichern und dauerhafte Sicherungen",
+      "text": "Die Writerey sichert deine Arbeit auf zwei Arten: Erstens speichert sie automatisch jedes Dokument an dem du arbeitest, wann immer du eine kurze Schreibpause machst. Zweitens fertigt sie Sicherungen an. Das bedeutet, die App merkt sich wie dein Dokument zu einem bestimmten Zeitpunkt aussah und speichert das, für immer. Damit stellt die Writerey sicher, das du nie wieder einen Zwischenstand verlierst."
+    },
+    "projects": {
+      "title": "Organisiere deine Arbeit mithilfe von Projekten",
+      "text": "Writerey nutzt Projekte um deine Arbeit voneinander zu trennen. Ein Projekt ist eine unabhängige Box für jede deiner Ideen und Vorhaben. So hast du alles an einem Fleck beisammen (in der Writerey) und kannst dich gleichzeitig ausschließlich auf das konzentrieren, was für deine aktuelle Idee gerade wichtig ist."
+    },
+    "distractionfree": {
+      "title": "Schreiben ohne Ablenkung",
+      "text": "Ein Blatt Paper und deinen Fokus. Das bekommst du mit der Writerey. Mithilfe des Sichtbarkeits-Schalters und der Dokument-Modi entscheidest du, wieviel dir die App anzeigt, um deine perfekte Balance zwischen Information und Konzentration zu finden."
+    },
+    "review": {
+      "title": "Überarbeite und verbessere deine Arbeit mit Notizen und Rubriken",
+      "text": "In dieser App geht es nicht nur um das Schreiben. Es geht auch um das Verbessern deiner Werke. Rubriken, Notizen und Dokumentenlinks helfen dir, deine Hintergrund-Informationen, To-Dos und Notizen genau da zu haben, wo du sie brauchst: in deinem Dokument. Sag Tschüß zu den fünf Word-Dokumenten, die du offen hast und den dutzenden Haftnotizen, die überall kleben."
+    }
+  },
+  "beta": {
+    "title": "Im Beta Stadium",
+    "intro": " Writerey ist ein Open Source Projekt, dass sich noch in der Beta befindet. Das bedeutet insbesondere:",
+    "points": [
+      "Manche Features sind noch unvollständig oder gar nicht da",
+      "Die Software hat Fehler",
+      "Zukünftige Versionen könnten zu Inkompatibilitäten mit alten Daten führen, auch wenn wir unser Bestes geben, das zu vermeiden"
+    ],
+    "v1hint": "Auch in der Beta-Version ist die Writerey ist bereits nutzbar und kann dich bei deiner täglichen Arbeit unterstützen. Eine Software zu entwickeln ist eine lange Reise und wir würden uns freuen, wenn du uns dabei begleitest und uns Rückmeldung gibst. Wenn du stattdessen eine komfortable und stabile 1.0 bevorzugst, dann sehen wir dich hoffentlich zu einem späteren Zeitpunkt wieder."
+  },
+  "docs": {
+    "title": "Dokumentation",
+    "text": "Möchtest du mehr über die Writerey herausfinden? Du weißt nicht so recht, wo du anfangen sollst? Sieh dir unsere Dokumentation an! ",
+    "link": "Zur Dokumentation"
+  },
+  "get": {
+    "title": "Kostenlose, freie Software",
+    "opensource": "Writerey ist ein Open Source Projekt und vollständig kostenlos. Alles was du tun musst, ist dem Installationsguide zu folgen und dann kannst du direkt loslegen! ",
+    "download-button": "Writerey installieren",
+    "contribute": " Du bist selbst Entwickler und möchtest etwas zu diesem Projekt beitragen? Wundervoll! Sieh dir im {repo} an, wo wir Hilfe benötigen.",
+    "repo-link": "Github Repository"
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "email": "hello@writerey.com"
+  },
+  "get-writerey": {
+    "title": "Die Writerey installieren",
+    "requirements": "Um die writerey nutzen zu können, muss dein System einige Vorrausetzungen erfüllen. Wir arbeiten daran, diesen Prozess für dich zu verbessern und zu vereinfachen, habt bitte Geduld mit uns. Du findest eine detaillierte Anleitung was du wie installieren musst auf der Installationsseite der Dokumentation.",
+    "welcome": "Wir hoffen, die Writerey wird dir auf deiner Reise des Schreibens helfen. Willkommen an Bord!",
+    "doc": {
+      "link": "https://docs.writerey.com/de/installation/",
+      "label": "Installationsanleitung"
+    },
+    "download": {
+      "text": "Sobald dein System fertig konfiguriert ist, lad dir die neuste Version der Writerey bei Github herunter und du bist bereit, loszulegen! Schau erneut in die Installationsanleitung, falls du mehr informationen brauchst.",
+      "link": "https://github.com/s-blu/writerey/releases/latest",
+      "label": "Download Writerey"
+    }
+  }
+}
