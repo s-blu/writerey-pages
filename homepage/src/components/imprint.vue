@@ -21,7 +21,7 @@ export default class Docs extends Vue {
 
   componentName = `Imprint${this.capitalize(this.locale)}`;
 
-  capitalize(string) {
+  capitalize(string: string) {
     if (!string) return "";
     return string.charAt(0).toUpperCase() + string.slice(1);
   }

@@ -15,11 +15,11 @@
     "title": "Features",
     "autosave": {
       "title": "Automatic saving and persistent snapshots",
-      "text": "Writerey keeps your work safe in two ways. First, it saves automatically every document you're working on, every time you do a tiny writing pause. Secondly, the app snapshots your work. That means it remembers how your document looked like in a certain place of time and saves this, forever, so you will never lose a revision again."
+      "text": "Writerey keeps your work safe in two ways. First, it automatically saves every document you're working on, every time you do a tiny writing pause. Secondly, the app snapshots your work. That means it remembers how your document looked like in a certain place of time and saves this, forever, so you will never lose a revision again."
     },
     "projects": {
       "title": "Organize your work in projects",
-      "text": "A project is the top most structure in writerey. It creates an independent place for every idea you have and every undertaking you want to tackle. This way you always have all your project at one place and can in the same time concentrate on what's important for this one idea."
+      "text": "Writerey uses projects to separate your work into organized places. A project creates an independent place for every idea you have and every undertaking you want to tackle. This way you always have all your projects at one place and can in the same time concentrate on what's important for this one idea."
     },
     "distractionfree": {
       "title": "Distraction free writing",
@@ -27,7 +27,7 @@
     },
     "review": {
       "title": "Review and enhance your work with todos and labels",
-      "text": "This app is not only about writing. It is about enhancing your work. Labels, Notes and Document Links help you to maintain background information, to dos and enhancement notes right there where you need it: On your document. Say goodbye to the five word document you have open and to the dozens of sticky notes flying around."
+      "text": "This app is not only about writing. It is about enhancing your work. Labels, Notes and Document Links help you to maintain background information, to dos and enhancement notes right there where you need it: On your document. Say goodbye to the five word documents you have open and to the dozens of sticky notes flying around."
     }
   },
   "beta": {
@@ -38,7 +38,7 @@
       "There are bugs around",
       "Changes could lead to backward incompatibility, even though we try our best to avoid that"
     ],
-    "v1hint": "That said, writerey is in a useable state and can already add value to your daily work. We would appreciate your feedback highly. Developing a software is a long journey and we would be delighted if you tag along. If you prefer a comfortable and stable 1.0, we hope to see you again on a later date."
+    "v1hint": "That said, writerey is in a useable state and can already add value to your daily work. We would highly appreciate your feedback. Developing a software is a long journey and we would be delighted if you tag along. If you prefer a comfortable and stable 1.0, we hope to see you again on a later date."
   },
   "docs": {
     "title": "Documentation",
@@ -49,7 +49,7 @@
     "title": "Open Source & free to use",
     "opensource": "Writerey is an open source project and completely free to use. All you need to do is to follow our installation guide and you are ready to go!",
     "download-button": "Get Writerey",
-    "contribute": "If you are a developer yourself and interested in contributing to the project, we'd be delighted! Head over to {repo} to see where you can help!",
+    "contribute": "If you are a developer yourself and interested in contributing to the project, that would be wonderful! Head over to {repo} to see where you can help.",
     "repo-link": "the Github repository"
   },
   "footer": {
