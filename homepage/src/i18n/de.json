@@ -23,7 +23,7 @@
     },
     "distractionfree": {
       "title": "Schreiben ohne Ablenkung",
-      "text": "Ein Blatt Paper und deinen Fokus. Das bekommst du mit der Writerey. Mithilfe des Sichtbarkeits-Schalters und der Dokument-Modi entscheidest du, wieviel dir die App anzeigt, um deine perfekte Balance zwischen Information und Konzentration zu finden."
+      "text": "Ein Blatt Papier und deinen Fokus. Das bekommst du mit der Writerey. Mithilfe des Sichtbarkeits-Schalters und der Dokument-Modi entscheidest du, wieviel dir die App anzeigt, um deine perfekte Balance zwischen Information und Konzentration zu finden."
     },
     "review": {
       "title": "Überarbeite und verbessere deine Arbeit mit Notizen und Rubriken",
@@ -38,7 +38,13 @@
       "Die Software hat Fehler",
       "Zukünftige Versionen könnten zu Inkompatibilitäten mit alten Daten führen, auch wenn wir unser Bestes geben, das zu vermeiden"
     ],
-    "v1hint": "Auch in der Beta-Version ist die Writerey ist bereits nutzbar und kann dich bei deiner täglichen Arbeit unterstützen. Eine Software zu entwickeln ist eine lange Reise und wir würden uns freuen, wenn du uns dabei begleitest und uns Rückmeldung gibst. Wenn du stattdessen eine komfortable und stabile 1.0 bevorzugst, dann sehen wir dich hoffentlich zu einem späteren Zeitpunkt wieder."
+    "v1hint": "Auch in der Beta-Version ist die Writerey ist bereits nutzbar und kann dich bei deiner täglichen Arbeit unterstützen. Eine Software zu entwickeln ist eine lange Reise und wir würden uns freuen, wenn du uns dabei begleitest und uns Rückmeldung gibst. Wenn du stattdessen eine komfortable und stabile 1.0 bevorzugst, dann sehen wir dich hoffentlich zu einem späteren Zeitpunkt wieder.",
+    "roadmap": {
+      "title": "Projektplan",
+      "text": "Du fragst dich, was es in zukünftigen Versionen geben wird? Schau dir unseren Projektplan in der {link} an, um dir einen Überblick über die nächsten geplanten Änderungen zu verschaffen.",
+      "link-label": "Dokumentation",
+      "link": "https://docs.writerey.com/en/roadmap/"
+    }
   },
   "docs": {
     "title": "Dokumentation",
