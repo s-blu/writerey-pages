@@ -4,7 +4,7 @@
     <p>
       Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
     </p>
-    <p>Stephanie Siebert</p>
+    <p>Stefanie Siebert</p>
     <p>Jobststr. 31</p>
     <p>44629 Herne</p>
     <p>Deutschland</p>
@@ -13,7 +13,7 @@
     <p>
       Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
     </p>
-    <p>Stephanie Siebert</p>
+    <p>Stefanie Siebert</p>
     <h2>Ihre Betroffenenrechte</h2>
     <p>
       Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:
@@ -100,6 +100,44 @@
       ausgeschlossen.
     </p>
     <p></p>
+    <h2>Verwendung von Matomo</h2>
+    <p>
+      Writerey.com nutzt Matomo, eine Open-Source-Software zur statistischen Auswertung von Besucherzugriffen. Anbieter
+      der Software Matomo ist die InnoCraft Ltd., 150 Willis St, 6011 Wellington, Neuseeland.
+    </p>
+    <p>
+      Folgende Informationen werden zur statistischen Auswertung erfasst:
+    </p>
+    <ul>
+      <li>die IP-Adresse des Nutzers, gekürzt um die letzten zwei Bytes (anonymisiert)</li>
+      <li>die aufgerufene Unterseite und Zeitpunkt des Aufrufs</li>
+      <li>die Seite, von der der Nutzer auf unsere Webseite gelangt ist (Referrer)</li>
+      <li>welcher Browser mit welchen Plugins, welches Betriebssystem und welche Bildschirmauflösung genutzt wird</li>
+      <li>die Verweildauer auf der Website</li>
+      <li>die Seiten, die von der aufgerufenen Unterseite aus angesteuert werden</li>
+      <li>ihre ungefähre geologische Position basierend auf ihrer anonymisierten IP-Adresse</li>
+    </ul>
+    <p>
+      Die Verwendung von Matomo erfolgt zu dem Zweck, die Qualität unserer Website und ihre Inhalte zu verbessern.
+      Dadurch erfahren wir, wie die Website genutzt wird und können so unser Angebot stetig optimieren.
+    </p>
+    <p>
+      Durch die Anonymisierung der IP-Adresse um sechs Stellen tragen wir dem Interesse des Webseitenbesuchers am Schutz
+      personenbezogener Daten Rechnung. Die Daten werden nicht dazu genutzt, den Nutzer der Website persönlich zu
+      identifizieren und werden nicht mit anderen Daten zusammengeführt.
+    </p>
+    <p>
+      Nähere Informationen zu den Privatsphäre-Einstellungen der Matomo Software finden Sie unter folgendem Link:
+      <a href="https://matomo.org/docs/privacy/" target="_blank" rel="nofollow noopener"
+        >https://matomo.org/docs/privacy/</a
+      >.
+    </p>
+    <!-- <p>
+      Sie können die Verwendung von Cookies auch durch eine entsprechende Einstellung Ihrer Browser Software verhindern;
+      wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website
+      vollumfänglich werden nutzen können.
+    </p> -->
+    <p></p>
     <h2>SSL-Verschlüsselung</h2>
     <p>
       Um die Sicherheit Ihrer Daten bei der Übertragung zu schützen, verwenden wir dem aktuellen Stand der Technik
@@ -121,7 +159,7 @@
       überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
     </p>
     <h3>Empfänger eines Widerspruchs</h3>
-    <p>Stephanie Siebert</p>
+    <p>Stefanie Siebert</p>
 
     <h2>Änderung unserer Datenschutzbestimmungen</h2>
     <p>
@@ -130,8 +168,10 @@
       der Einführung neuer Services. Für Ihren erneuten Besuch gilt dann die neue Datenschutzerklärung.
     </p>
     <h2>Fragen an den Datenschutzbeauftragten</h2>
-    <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail.</p>
-    <p></p>
+    <p>
+      Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail.
+    </p>
+    <p>privacy@writerey.com</p>
     <p class="generator-hint">
       <em
         >Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für
