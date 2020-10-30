@@ -62,7 +62,8 @@
   },
   "footer": {
     "imprint": "Impressum",
-    "email": "hello@writerey.com"
+    "email": "hello@writerey.com",
+    "github": "Repository"
   },
   "get-writerey": {
     "title": "Die Writerey installieren",

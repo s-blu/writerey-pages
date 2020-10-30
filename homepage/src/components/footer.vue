@@ -5,7 +5,7 @@
       <router-link to="/imprint">{{ $t("footer.imprint") }}</router-link>
     </div>
 
-    <a :href="repoLink" target="_blank">
+    <a :href="repoLink" target="_blank" :aria-label="$t('footer.github')">
       <font-awesome-icon class="github-icon" :icon="['fab', 'github']" />
     </a>
   </div>
@@ -26,7 +26,7 @@ export default class HomepageFooter extends Vue {
 
 .footer {
   height: 80px;
-  background-color: #393939;
+  background-color: $c_dark_grey;
   display: flex;
   justify-content: space-between;
   align-items: center;

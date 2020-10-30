@@ -7,7 +7,8 @@
   "navbar": {
     "documentation": "Documentation",
     "download": "Download",
-    "home": "Home"
+    "home": "Home",
+    "mobile-toggle": "Menü anzeigen/verbergen"
   },
   "introduction": {
     "text": "Writerey is a tool that aims to help you to organize, compose and refine your stories. No matter if you write poems, novels, short stories or something else, writerey is your distraction free place to get work done.",
@@ -62,7 +63,8 @@
   },
   "footer": {
     "imprint": "Imprint & Privacy",
-    "email": "hello@writerey.com"
+    "email": "hello@writerey.com",
+    "github": "Repository"
   },
   "get-writerey": {
     "title": "How to install Writerey",

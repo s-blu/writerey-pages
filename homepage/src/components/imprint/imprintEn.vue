@@ -19,8 +19,8 @@
     <div>
       <h2>Personal data storage and processing</h2>
       <p>
-        writerey.com does not collect or store any personal data. Collection and processing of your personal information
-        is carried out in accordance with the laws of the European Union and Germany.
+        Collection and processing of your personal information is carried out in accordance with the laws of the European Union and Germany.
+        We are collecting data to provide our services as well for statistical purposes.
       </p>
       <h2>Data storage, alteration, and removal</h2>
       <p>

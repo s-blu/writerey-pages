@@ -6,7 +6,7 @@
         alt="Screenshot of the writerey app when editing a document"
         width="100%"
         class="pure-img"
-        src="../assets/img/app-demo-with-explanation.png"
+        :src="getImgSource()"
       />
     </div>
   </div>
@@ -16,7 +16,13 @@
 import { Component, Vue } from "vue-property-decorator";
 
 @Component
-export default class Showroom extends Vue {}
+export default class Showroom extends Vue {
+  locale = this.$i18n.locale;
+
+  getImgSource() {
+    return require(`../assets/img/document_view_${this.locale}.jpg`);
+  }
+}
 </script>
 
 <style scoped lang="scss">
