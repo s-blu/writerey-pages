@@ -16,6 +16,7 @@ export default class Introduction extends Vue {}
 <style scoped lang="scss">
 h1 {
   font-size: 24pt;
+  width: 100%;
 }
 
 .intro {
