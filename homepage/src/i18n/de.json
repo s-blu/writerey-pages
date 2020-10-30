@@ -1,5 +1,6 @@
 {
   "title": "Writerey",
+  "pagetitle": "Writerey - Freie Autoren-Software",
   "links": {
     "documentation": "https://docs.writerey.com/"
   },
@@ -9,7 +10,8 @@
     "home": "Home"
   },
   "introduction": {
-    "text": "Writerey ist eine Software, die dir helfen will, deine Geschichten zu verfassen, zu organisieren und zu verfeinern. Egal ob du Gedichte schreibst, Kurzgeschichten, ganze Bücher oder etwas Anderes, Writerey ist dein Ort zum fokussierten Arbeiten."
+    "title": "Die freie Autoren-Software für deine Geschichte",
+    "text": "Writerey ist eine Software für Autoren, die dir helfen will, deine Geschichten zu schreiben, zu organisieren und zu überarbeiten. Egal ob du Gedichte schreibst, ganze Bücher, Kurzgeschichten oder etwas Anderes, Writerey ist dein Ort zum fokussierten Arbeiten."
   },
   "features": {
     "title": "Funktionen",
@@ -72,7 +74,6 @@
     },
     "download": {
       "text": "Sobald dein System fertig konfiguriert ist, lad dir die neuste Version der Writerey bei Github herunter und du bist bereit, loszulegen! Schau erneut in die Installationsanleitung, falls du mehr informationen brauchst.",
-      "link": "https://github.com/s-blu/writerey/releases/latest",
       "label": "Download Writerey"
     }
   }

@@ -21,7 +21,17 @@ import Navbar from "./components/navbar.vue";
     HomepageFooter,
   },
 })
-export default class App extends Vue {}
+export default class App extends Vue {
+  mounted() {
+    const translateKey = "pagetitle";
+    const translatedPageTitle = this.$i18n.t(translateKey) as string;
+    const title = document.querySelector("title");
+
+    if (translatedPageTitle !== translateKey && title) {
+      title.textContent = translatedPageTitle;
+    }
+  }
+}
 </script>
 
 <style lang="scss">

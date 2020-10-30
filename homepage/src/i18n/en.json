@@ -1,5 +1,6 @@
 {
   "title": "Writerey",
+  "pagetitle": "Writerey - Free Writing Software",
   "links": {
     "documentation": "https://docs.writerey.com/"
   },
@@ -9,7 +10,8 @@
     "home": "Home"
   },
   "introduction": {
-    "text": "Writerey is a tool that aims to help you to organize, compose and refine your stories. No matter if you write poems, novels, short stories or something else, writerey is your distraction free place to get work done."
+    "text": "Writerey is a tool that aims to help you to organize, compose and refine your stories. No matter if you write poems, novels, short stories or something else, writerey is your distraction free place to get work done.",
+    "title": "An open source writing app for your stories"
   },
   "features": {
     "title": "Features",
@@ -72,7 +74,6 @@
     },
     "download": {
       "text": "If you system is ready to run Writerey, head over to Github, download it and you're ready to go! Please refer again to our documentation if you need more information.",
-      "link": "https://github.com/s-blu/writerey/releases/latest",
       "label": "Download Writerey"
     }
   }
