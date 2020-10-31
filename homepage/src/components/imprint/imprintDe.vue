@@ -67,8 +67,8 @@
     </ul>
     <p>
       Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Informationen dieser Art werden von uns
-      ggfs. anonymisiert statistisch ausgewertet, um unseren Internetauftritt und die dahinterstehende Technik zu
-      optimieren.
+      anonymisiert statistisch ausgewertet, um unseren Internetauftritt und die dahinterstehende Technik zu
+      optimieren (siehe "Verwendung von Matomo")
     </p>
     <h3>Rechtsgrundlage und berechtigtes Interesse:</h3>
     <p>
