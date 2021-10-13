@@ -15,7 +15,7 @@
     <p>44629 Herne</p>
     <p>Germany</p>
     <h3>Contact</h3>
-    <p>hello@writerey.com</p>
+    <p>writerey@s-blu.de</p>
     <div>
       <h2>Personal data storage and processing</h2>
       <p>
@@ -28,7 +28,7 @@
         removal, as well as the right to recall the agreement to data processing. Time, during which your personal data
         will be stored is: time the personal data is used that is necessary for the website’s main activity. After
         finishing with the processing of your personal data, the website’s administration will permanently delete it. To
-        access your personal data, you can contact the administration on: privacy@writerey.com. We will be able to pass
+        access your personal data, you can contact the administration on: writerey.privacy@s-blu.de. We will be able to pass
         your data to a third party only with your willing consent. If the data was transferred to a third party, which
         is not associated with our organization, we cannot perform any changes to that data.
       </p>
@@ -61,7 +61,7 @@
       <h2>Children’s personal information</h2>
       <p>
         If you are a parent or a legal guardian of an underage child, and you know that the child has provided us with
-        their personal information without your consent, please contact us on: privacy@writerey.com. It is forbidden to
+        their personal information without your consent, please contact us on: writerey.privacy@s-blu.de. It is forbidden to
         enter personal data of underage users without the agreement of parents or lawful guardians.
       </p>
       <!-- <h2>Cookies processing</h2>
@@ -104,7 +104,7 @@
       <h2>Feedback and final clauses</h2>
       <p>
         You can contact the administration of writerey.com regarding any questions related to privacy policy on:
-        privacy@writerey.com, or by filling a contact form specified in a corresponding section of this website. If you
+        writerey.privacy@s-blu.de, or by filling a contact form specified in a corresponding section of this website. If you
         do not agree with this privacy policy, you cannot use the services of writerey.com. In this case you should
         avoid visiting our website.
       </p>

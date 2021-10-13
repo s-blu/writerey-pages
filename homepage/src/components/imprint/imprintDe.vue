@@ -9,7 +9,7 @@
     <p>44629 Herne</p>
     <p>Deutschland</p>
     <h3>Kontakt</h3>
-    <p>hello@writerey.com</p>
+    <p>writerey@s-blu.de</p>
     <p>
       Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
     </p>
@@ -171,7 +171,7 @@
     <p>
       Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail.
     </p>
-    <p>privacy@writerey.com</p>
+    <p>writerey.privacy@s-blu.de</p>
     <p class="generator-hint">
       <em
         >Die Datenschutzerklärung wurde mithilfe der activeMind AG erstellt, den Experten für

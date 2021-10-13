@@ -2,7 +2,7 @@
   "title": "Writerey",
   "pagetitle": "Writerey - Free Writing Software",
   "links": {
-    "documentation": "https://docs.writerey.com/"
+    "documentation": "https://s-blu.github.io/writerey/"
   },
   "navbar": {
     "documentation": "Documentation",
@@ -46,7 +46,7 @@
       "title": "Roadmap",
       "text": "You ask yourself what you can expect from future versions? Head over to our Roadmap on our {link} to get an Overview about the things we'll work on soon.",
       "link-label": "Documentation",
-      "link": "https://docs.writerey.com/en/roadmap/"
+      "link": "https://s-blu.github.io/writerey/en/roadmap/"
     }
   },
   "docs": {
@@ -63,7 +63,7 @@
   },
   "footer": {
     "imprint": "Imprint & Privacy",
-    "email": "hello@writerey.com",
+    "email": "writerey@s-blu.de",
     "github": "Repository"
   },
   "get-writerey": {
@@ -71,7 +71,7 @@
     "requirements": "To be able to use writerey, it is necessary to fulfill some requirements on your machine. We are working on improving this process and making it less troublesome for you, so please bear with us. You'll find a detailed explanation what you need to install in the installation section of our documentation.",
     "welcome": "We hope writerey will help you on your writing journey. Welcome on board!",
     "doc": {
-      "link": "https://docs.writerey.com/en/installation/",
+      "link": "https://s-blu.github.io/writerey/en/installation/",
       "label": "Installation instructions"
     },
     "download": {
